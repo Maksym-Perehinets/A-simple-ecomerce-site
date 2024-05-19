@@ -1,0 +1,22 @@
+on:
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Bootstrap Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11
+      - name: Install linting libraries
+        run: |
+            cd e_commerce
+            pip install flake8
+      - name: Lint with flake8
+        run: |
+             flake8 . --ignore=E501
