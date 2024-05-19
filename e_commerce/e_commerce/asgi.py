@@ -1,6 +1,5 @@
 """
-ASGI config for e_commerce project. test
-
+ASGI config for e_commerce project. tesdsdst ererrrq
 It exposes the ASGI callable as a module-level variable named ``application``.
 
 For more information on this file, see
