@@ -1,5 +1,5 @@
 """
-ASGI config for e_commerce project.
+ASGI config for e_commerce project. test
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
