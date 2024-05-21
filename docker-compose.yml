@@ -2,6 +2,6 @@ services:
   web:
     build: .
     volumes:
-      - ./e_commerce:/src
+      - ./:/src
     ports:
       - "8000:8000"

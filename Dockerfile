@@ -7,6 +7,6 @@ WORKDIR /src
 COPY requirements.txt /src/
 RUN pip install --upgrade pip \
     pip install -r requirements.txt
-COPY ./e_commerce /src/
+COPY . /src/
 
 ENTRYPOINT ["python", "manage.py", "runserver", "0.0.0.0:8000"]
