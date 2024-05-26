@@ -1,0 +1,28 @@
+[
+  {
+    "model": "products.users",
+    "pk": 1,
+    "fields": {
+      "user_email": "user1@example.com",
+      "user_phone_number": "1234567890",
+      "user_password": "password1",
+      "user_name": "John",
+      "user_surname": "Doe",
+      "user_birthday": "1990-01-01",
+      "user_address": "123 Street, City, Country"
+    }
+  },
+  {
+    "model": "products.users",
+    "pk": 2,
+    "fields": {
+      "user_email": "user2@example.com",
+      "user_phone_number": "0987654321",
+      "user_password": "password2",
+      "user_name": "Jane",
+      "user_surname": "Doe",
+      "user_birthday": "1995-02-02",
+      "user_address": "456 Avenue, City, Country"
+    }
+  }
+]

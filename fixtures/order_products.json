@@ -1,0 +1,24 @@
+[
+  {
+    "model": "products.orderedproducts",
+    "pk": 1,
+    "fields": {
+      "order_date": "2024-05-26",
+      "order_quantity": 10,
+      "sent_form_warehouse": false,
+      "user_id": 1,
+      "goods_with_attributes_values_id": 1
+    }
+  },
+  {
+    "model": "products.orderedproducts",
+    "pk": 2,
+    "fields": {
+      "order_date": "2024-05-27",
+      "order_quantity": 5,
+      "sent_form_warehouse": true,
+      "user_id": 2,
+      "goods_with_attributes_values_id": 2
+    }
+  }
+]
