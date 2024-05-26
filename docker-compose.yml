@@ -8,6 +8,8 @@ services:
     networks:
       database:
         ipv4_address: 10.105.10.2
+    env_file:
+      - ./e_commerce/.env
     depends_on:
       - db
       - migration
@@ -16,10 +18,12 @@ services:
     build: .
     volumes:
       - ./:/src
-    command: ./manage.py migrate
+    command: sh -c "python3 manage.py migrate && python3 manage.py loaddata fixtures/*"
     networks:
       database:
         ipv4_address: 10.105.10.4
+    env_file:
+      - ./e_commerce/.env
     depends_on:
       - db
 
