@@ -1,0 +1,102 @@
+[
+  {
+    "model": "products.goodswithattributesvalues",
+    "pk": 1,
+    "fields": {
+      "amount_in_warehouse": 50,
+      "attribute_value": 1,
+      "goods_id": 1,
+      "attribute_id": 1
+    }
+  },
+  {
+    "model": "products.goodswithattributesvalues",
+    "pk": 2,
+    "fields": {
+      "amount_in_warehouse": 30,
+      "attribute_value": 2,
+      "goods_id": 2,
+      "attribute_id": 2
+    }
+  },
+  {
+    "model": "products.goodswithattributesvalues",
+    "pk": 3,
+    "fields": {
+      "amount_in_warehouse": 20,
+      "attribute_value": 1,
+      "goods_id": 3,
+      "attribute_id": 1
+    }
+  },
+  {
+    "model": "products.goodswithattributesvalues",
+    "pk": 4,
+    "fields": {
+      "amount_in_warehouse": 40,
+      "attribute_value": 2,
+      "goods_id": 4,
+      "attribute_id": 2
+    }
+  },
+  {
+    "model": "products.goodswithattributesvalues",
+    "pk": 5,
+    "fields": {
+      "amount_in_warehouse": 25,
+      "attribute_value": 1,
+      "goods_id": 5,
+      "attribute_id": 1
+    }
+  },
+  {
+    "model": "products.goodswithattributesvalues",
+    "pk": 6,
+    "fields": {
+      "amount_in_warehouse": 60,
+      "attribute_value": 2,
+      "goods_id": 6,
+      "attribute_id": 2
+    }
+  },
+  {
+    "model": "products.goodswithattributesvalues",
+    "pk": 7,
+    "fields": {
+      "amount_in_warehouse": 35,
+      "attribute_value": 1,
+      "goods_id": 7,
+      "attribute_id": 1
+    }
+  },
+  {
+    "model": "products.goodswithattributesvalues",
+    "pk": 8,
+    "fields": {
+      "amount_in_warehouse": 45,
+      "attribute_value": 2,
+      "goods_id": 8,
+      "attribute_id": 2
+    }
+  },
+  {
+    "model": "products.goodswithattributesvalues",
+    "pk": 9,
+    "fields": {
+      "amount_in_warehouse": 55,
+      "attribute_value": 1,
+      "goods_id": 9,
+      "attribute_id": 1
+    }
+  },
+  {
+    "model": "products.goodswithattributesvalues",
+    "pk": 10,
+    "fields": {
+      "amount_in_warehouse": 70,
+      "attribute_value": 2,
+      "goods_id": 10,
+      "attribute_id": 2
+    }
+  }
+]
