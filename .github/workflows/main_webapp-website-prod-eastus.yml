@@ -34,10 +34,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+     # All data below is sample
       - name: Initialize static files
         run: python manage.py collectstatic
         env:
           SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
+          DATABASE_NAME: default
+          DATABASE_USER: root
+          DATABASE_PASS: secure@password@for@root
+          DATABASE_HOST: 10.105.10.3
+          DATABASE_PORT: 5432
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
       - name: Zip artifact for deployment
