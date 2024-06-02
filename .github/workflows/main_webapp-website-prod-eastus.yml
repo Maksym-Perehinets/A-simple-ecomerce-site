@@ -35,9 +35,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Initialize static files
-        run: |
-          python manage.py collectstatic
-        
+        run: python manage.py collectstatic
+        env:
+          SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
       - name: Zip artifact for deployment
