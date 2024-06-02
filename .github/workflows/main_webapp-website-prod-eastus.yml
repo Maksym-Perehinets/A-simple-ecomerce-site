@@ -17,6 +17,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Delete unnecessary directories
+        run: |
+          rm -rf Infrastructure Dockerfile docker-compose.yml fixtures
+
       - name: Set up Python version
         uses: actions/setup-python@v1
         with:
