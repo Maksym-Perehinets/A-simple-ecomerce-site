@@ -19,7 +19,7 @@ jobs:
 
       - name: Delete unnecessary directories
         run: |
-          rm -rf Infrastructure Dockerfile docker-compose.yml fixtures
+          rm -rf Infrastructure Dockerfile docker-compose.yml fixtures e_commerce/.env
 
       - name: Set up Python version
         uses: actions/setup-python@v1
