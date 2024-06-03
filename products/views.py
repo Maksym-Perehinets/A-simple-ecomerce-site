@@ -8,8 +8,5 @@ def products_page(request):
     # TODO add comments to db and provide query for retrival
     # comment =
     print(product)
-    return render(request,
-                  'products/templates/product-detail.html',
-                  {'product': product,
-                   'comments': 'null'}
-                  )
+    return render(request, 'products/product-detail.html',
+                  {'product': product, 'comments': 'null'})
