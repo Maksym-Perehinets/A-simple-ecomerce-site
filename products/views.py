@@ -7,6 +7,5 @@ def products_page(request):
     product = get_object_or_404(Goods, pk=desired_product_id)
     # TODO add comments to db and provide query for retrival
     # comment =
-    print(product)
     return render(request, 'products/product-detail.html',
                   {'product': product, 'comments': 'null'})
