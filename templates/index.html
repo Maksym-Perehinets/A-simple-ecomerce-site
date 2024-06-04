@@ -1,4 +1,4 @@
-{% extends "templates/base.html" %}
+{% extends "base.html" %}
 
 {% block content %}
     <!-- ========================= SECTION MAIN ========================= -->
@@ -30,7 +30,7 @@
                             <a href="./products/product-description?id={{ i.id }}" class="img-wrap"> <img
                                     src={{ i.goods_image }}> </a>
                             <figcaption class="info-wrap">
-                                <a href="../products/templates/product-detail.html"
+                                <a href="../products/templates/products/product-detail.html"
                                    class="title">{{ i.goods_name }}</a>
                                 <div class="price mt-1">${{ i.goods_price }}</div>
                             </figcaption>

@@ -9,4 +9,4 @@ def main(request):
             suitable_items.values_list('goods_id', flat=True)
         )
     )[:8]
-    return render(request, "templates/index.html", {'products': products})
+    return render(request, "index.html", {'products': products})
