@@ -84,5 +84,5 @@ jobs:
         with:
           app-name: 'webapp-website-prod-eastus'
           slot-name: 'Production'
-          publish-profile: {{ secrets.WEBAPP_PUBLISHPROFILE }}
+          publish-profile: ${{ secrets.WEBAPP_PUBLISHPROFILE }}
           
