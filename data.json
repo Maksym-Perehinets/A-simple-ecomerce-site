@@ -1,0 +1,136 @@
+[
+    {
+        "model": "category.category",
+        "pk": 1,
+        "fields": {
+            "category_name": "Electronics",
+            "slug": "electronics",
+            "description": "Electronic gadgets and devices",
+            "cat_image": "photos/categories/grill.jpg"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 2,
+        "fields": {
+            "category_name": "Clothing",
+            "slug": "clothing",
+            "description": "Men's and Women's clothing",
+            "cat_image": "photos/categories/T-shirt.jpg"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 3,
+        "fields": {
+            "category_name": "Books",
+            "slug": "books",
+            "description": "Books of various genres",
+            "cat_image": "photos/categories/books.jpg"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 1,
+        "fields": {
+            "product_name": "Smartphone",
+            "slug": "smartphone",
+            "description": "Latest model smartphone",
+            "price": 699,
+            "images": "photos/products/smartphone.jpg",
+            "stock": 50,
+            "is_available": true,
+            "category": 1,
+            "created_date": "2024-06-01T12:00:00Z",
+            "modified_date": "2024-06-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 2,
+        "fields": {
+            "product_name": "Laptop",
+            "slug": "laptop",
+            "description": "High performance laptop",
+            "price": 999,
+            "images": "photos/products/laptop.jpg",
+            "stock": 30,
+            "is_available": true,
+            "category": 1,
+            "created_date": "2024-06-01T12:00:00Z",
+            "modified_date": "2024-06-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 3,
+        "fields": {
+            "product_name": "Jeans",
+            "slug": "jeans",
+            "description": "Comfortable blue jeans",
+            "price": 49,
+            "images": "photos/products/jeans.jpg",
+            "stock": 100,
+            "is_available": true,
+            "category": 2,
+            "created_date": "2024-06-01T12:00:00Z",
+            "modified_date": "2024-06-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 4,
+        "fields": {
+            "product_name": "T-shirt",
+            "slug": "tshirt",
+            "description": "Cotton T-shirt",
+            "price": 19,
+            "images": "photos/products/tshirt.jpg",
+            "stock": 200,
+            "is_available": true,
+            "category": 2,
+            "created_date": "2024-06-01T12:00:00Z",
+            "modified_date": "2024-06-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 5,
+        "fields": {
+            "product_name": "Novel",
+            "slug": "novel",
+            "description": "A gripping novel",
+            "price": 15,
+            "images": "photos/products/novel.jpg",
+            "stock": 75,
+            "is_available": true,
+            "category": 3,
+            "created_date": "2024-06-01T12:00:00Z",
+            "modified_date": "2024-06-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 1,
+        "fields": {
+            "product": 1,
+            "image": "products/smartphone_gallery.jpg"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 2,
+        "fields": {
+            "product": 2,
+            "image": "products/laptop_gallery.jpg"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 3,
+        "fields": {
+            "product": 3,
+            "image": " products/jeans_gallery.jpg"
+        }
+    }
+]

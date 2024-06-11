@@ -25,10 +25,10 @@ resource "azurerm_linux_web_app" "mian" {
     }
   }
   app_settings = {
-    "DATABASE_NAME" = var.db_name
-    "DATABASE_USER" = var.db_user
-    "DATABASE_PASS" = var.db_pass
-    "DATABASE_HOST" = var.db_host
-    "DATABASE_PORT" = var.db_port
+    "DATABASE_NAME"         = var.db_name
+    "DATABASE_USER"         = var.db_user
+    "DATABASE_PASS"         = var.db_pass
+    "DATABASE_HOST"         = var.db_host
+    "DATABASE_PORT"         = var.db_port
   }
 }
